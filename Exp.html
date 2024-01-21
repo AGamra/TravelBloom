@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Your Destinations</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: url('background-image.jpg') center/cover no-repeat;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 70%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+   
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About Us</a>
+        <a href="Exp.html">Explore Your Destinations</a>
+      </div>
+<header>
+    <h1>Explore Your Destinations</h1>
+    <div class="container">
+        <input id="searchbar"
+               onkeyup="search_count()"
+               type="text" name="search"
+               placeholder="Search for destinations or keywords">
+ 
+        <ul id='list'>
+            <li class="animals">Saudi</li>
+            <li class="animals">emrit</li>
+            <li class="animals">Amaric</li>
+            <li class="animals">London</li>
+            <li class="animals">Africa</li>
+            <li class="animals">Australia</li>
+            <li class="animals">Malaysia</li>
+            <li class="animals">North German Union</li>
+            <li class="animals">Egypt</li>
+            <li class="animals">Turkey</li>
+            <li class="animals">Japan</li>
+        </ul>
+    </div>
+ 
+    <script src="js/search.js"></script>
+    <button type="button">Search</button>
+</header>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<section>
+    <p>Welcome to Explore Your Destinations, where every journey is an adventure waiting to unfold. Discover new cultures, cuisines, and landscapes as you embark on an exploration of a lifetime.</p>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Add font awesome icons -->
+    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+    <a href="https://twitter.com" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+
+   
+
+    <button type="button">Book Now</button>
+</section>
+
+</body>
+</html>
